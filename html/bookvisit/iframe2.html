@@ -1,0 +1,15 @@
+<div class="classIframe">
+        <iframe width="80%" height="1169" frameborder="0"
+            scrolling="yes" src="https://online.bookvisit.com/accommodation/list?channelId=94f37d3c-cac6-46de-b78c-f5c16af0bd41&presentationType=Tiles">
+        </iframe>
+</div>
+
+
+<script>
+jQuery('.classIframe')
+    .click(function(){
+            jQuery(this).find('iframe').addClass('clicked')})
+    .mouseleave(function(){
+            jQuery(this).find('iframe').removeClass('clicked')});
+	jQuery('.classIframe').click();
+</script>
